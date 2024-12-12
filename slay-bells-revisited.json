@@ -1,0 +1,352 @@
+[
+  {
+    "id": "_meta",
+    "name": "Slay Bells Revisited",
+    "author": "ChiselMW",
+    "logo": "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/_logo_with_axe.png",
+    "almanac": "https://chillclocktower.com/merry/",
+    "background": "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/_background.jpg"
+  },
+
+  {
+    "id": "buddy-the-elf",
+    "name": "Buddy the Elf",
+    "team": "townsfolk",
+    "ability": "You start knowing who Kris Kringle is [+Kris Kringle]",
+    "firstNight": 25,
+    "firstNightReminder": "Show the Kris Kringle charater token, them point to the player you know is Kris Kringle",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/buddy-the-elf_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/buddy-the-elf_E.png"
+    ]
+  },
+  {
+    "id": "kris-kringle",
+    "name": "Kris Kringle",
+    "team": "townsfolk",
+    "ability": "Each night, list (choose) three or more players. Tomorrow, when you check the list twice, find out how many selected players are evil. Then make another list.",
+    "reminders": ["Evil Chosen", "Evil Chosen", "Evil Chosen", "Evil Chosen"],
+    "firstNight": 26,
+    "firstNightReminder": "Kris Kringle chooses three or more players, mark any chosen Evil players.",
+    "otherNight": 17,
+    "otherNightReminder": "Give a finger signal to indicate how many previously chosen players are Evil. Kris Kringle chooses three or more new players.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/kris-kringle_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/kris-kringle_E.png"
+    ]
+  },
+  {
+    "id": "clarence-odbody",
+    "name": "Clarence Odbody",
+    "team": "townsfolk",
+    "ability": "Once per game announce that you wish to attempt a resurrection. If all Good players agree (hands raised), a player who died last night is resurrected",
+    "reminders": ["No Ability", "Resurrection Tonight"],
+    "otherNight": 1,
+    "otherNightReminder": "If there is a Resurrection Tonight, choose a player to be resurrected, then mark Clarence Odbody as having No Ability",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/clarence-odbody_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/clarence-odbody_E.png"
+    ]
+  },
+  {
+    "id": "rudolph",
+    "name": "Rudolph",
+    "team": "townsfolk",
+    "ability": "Each night*, learn how many players woke up (not including yourself).",
+    "otherNight": 19,
+    "otherNightReminder": "Use a finger signal to show how many players woke up",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/rudolph_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/rudolph_E.png"
+    ]
+  },
+  {
+    "id": "kevin-mccallister",
+    "name": "Kevin McCallister",
+    "team": "townsfolk",
+    "ability": "Once per game, if you publicly guess Harry and Marv, they die and the Demon is drunk until dawn",
+    "reminders": ["No Ability", "Drunk"],
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/kevin-mccallister_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/kevin-mccallister_E.png"
+    ]
+  },
+  {
+    "id": "mrs-claus",
+    "name": "Mrs. Claus",
+    "team": "townsfolk",
+    "ability": "Each night*, choose two players (not yourself). If they choose anyone else tonight, you find out who.",
+    "reminders": ["Your Choice", "Your Choice", "Their Choice", "Their Choice"],
+    "otherNight": 5,
+    "otherNightReminder": "Mrs. Clause chooses 2 players (not themselves). If they choose anyone else tonight, you find out who.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/mrs-claus_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/mrs-claus_E.png"
+    ]
+  },
+  {
+    "id": "billy-mack",
+    "name": "Billy Mack",
+    "team": "townsfolk",
+    "ability": "Once per game, publicly select a number of players up to the starting number of evil players, they are drunk until tomorrow dusk.",
+    "reminders": ["Drunk", "Drunk", "Drunk", "Drunk"],
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/billy-mack_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/billy-mack_E.png"
+    ]
+  },
+  {
+    "id": "jack-skellington",
+    "name": "Jack Skellington",
+    "team": "townsfolk",
+    "ability": "Each night*, choose two players. If chosen, a Demon must choose to either attack Jack Skellington or the other chosen player.",
+    "reminders": ["Chosen", "Chosen"],
+    "otherNight": 9,
+    "otherNightReminder": "Jack Skellington chooses 2 players. If chosen a Demon must choose to either attack Jack Skellington or the other chosen player.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/jack-skellington_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/jack-skellington_E.png"
+    ]
+  },
+  {
+    "id": "frosty-the-snowman",
+    "name": "Frosty the Snowman",
+    "team": "townsfolk",
+    "ability": "If Santa is alive, you cannot die.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/frosty-the-snowman_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/frosty-the-snowman_E.png"
+    ]
+  },
+  {
+    "id": "captain-bob-wallace",
+    "name": "Captain Bob Wallace",
+    "team": "townsfolk",
+    "ability": "Each night*, choose three players, if all agree, you learn one of their roles. If one disagrees, you are drunk.",
+    "reminders": ["Chosen", "Chosen", "Chosen", "Drunk"],
+    "otherNight": 18,
+    "otherNightReminder": "Captain Bob Wallace chooses 3 players. Wake each chosen player individually, show THIS CHARACTER SELECTED YOU and the Captain Bob Wallace token. If all players nod Yes, Captain Bob Wallace learns one of their roles. If one or more players disagrees, Captain Bob Wallace is made drunk.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/captain-bob-wallace_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/captain-bob-wallace_E.png"
+    ]
+  },
+  {
+    "id": "santa-claus",
+    "name": "Santa Claus",
+    "team": "townsfolk",
+    "ability": "If you die at night, an alive good player becomes Santa Claus.",
+    "reminders": ["You are Santa"],
+    "otherNight": 16,
+    "otherNightReminder": "If you Santa Claus at night, an alive Good player becomes Santa Claus.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/santa-claus_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/santa-claus_E.png"
+    ]
+  },
+  {
+    "id": "santas-little-helper",
+    "name": "Santa's Little Helper",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player, if Santa Claus or a relative (Arthur, Mrs, Kris) is selected, they are protected from malfunction until dusk.",
+    "reminders": ["Protected"],
+    "otherNight": 7,
+    "otherNightReminder": "Santa's Little Helper chooses a player, if Santa Claus or a relative (Arthur, Mrs, Kris) is selected, they are protected from malfunction until dusk.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/santas-little-helper_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/santas-little-helper_E.png"
+    ]
+  },
+  {
+    "id": "arthur-christmas",
+    "name": "Arthur Christmas",
+    "team": "townsfolk",
+    "ability": "If you are nominated by an Evil player, the nominating player is drunk until dawn",
+    "reminders": [
+      "Drunk Until Dawn",
+      "Drunk Until Dawn",
+      "Drunk Until Dawn",
+      "Drunk Until Dawn"
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/arthur-christmas_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/arthur-christmas_E.png"
+    ]
+  },
+
+  {
+    "id": "ghost-of-christmas-past",
+    "name": "Ghost of Christmas Past",
+    "team": "outsider",
+    "ability": "If you are executed, one Evil player who acted last night gets to act again tonight.",
+    "reminders": ["Acts Again"],
+    "otherNight": 1,
+    "otherNightReminder": "If the Ghost of Christmas Past is executed, one Evil player who acted last night gets to act again tonight.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/ghost-of-christmas-past_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/ghost-of-christmas-past_E.png"
+    ]
+  },
+  {
+    "id": "ghost-of-christmas-present",
+    "name": "Ghost of Christmas Present",
+    "team": "outsider",
+    "ability": "If you are executed, tonight each evil player who voted for you will see a character who also voted for you.",
+    "reminders": [
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted",
+      "Voted"
+    ],
+    "otherNight": 2,
+    "otherNightReminder": "If the Ghost of Christmas Present is executed, tonight each evil player who voted for Ghost of Christmas Present will see a character who also voted for Ghost of Christmas Present.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/ghost-of-christmas-present_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/ghost-of-christmas-present_E.png"
+    ]
+  },
+  {
+    "id": "ghost-of-christmas-yet-to-come",
+    "name": "Ghost of Christmas Yet to Come",
+    "team": "outsider",
+    "ability": "If you are executed, a townsfolk who voted for you is drunk for the rest of the game",
+    "reminders": ["Drunk"],
+    "otherNight": 3,
+    "otherNightReminder": "If you are executed, a townsfolk who voted for you is drunk for the rest of the game",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/ghost-of-christmas-yet-to-come_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/ghost-of-christmas-yet-to-come_E.png"
+    ]
+  },
+  {
+    "id": "scrooge",
+    "name": "Scrooge",
+    "team": "outsider",
+    "ability": "If one of the Ghosts activates, their ability activates twice. If you are executed a townsfolk turns evil tonight",
+    "reminders": ["Is Now Evil"],
+    "otherNight": 4,
+    "otherNightReminder": "If Scrooge was executed a townsfolk turns Evil tonight. If one of the Ghosts activated, their ability activates twice.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/scrooge_G.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/scrooge_E.png"
+    ]
+  },
+
+  {
+    "id": "jack-frost",
+    "name": "Jack Frost",
+    "team": "minion",
+    "ability": "Each night, choose a player, they are frozen and do not wake tonight and cannot use their ability tomorrow day",
+    "reminders": ["Frozen"],
+    "firstNight": 21,
+    "firstNightReminder": "Choose a player, mark the player as frozen",
+    "otherNight": 6,
+    "otherNightReminder": "Jack Frost chooses a player, mark the chosen player as Frozen",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/jack-frost_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/jack-frost_G.png"
+    ]
+  },
+  {
+    "id": "harry-and-marv",
+    "name": "Harry and Marv",
+    "team": "minion",
+    "ability": "Once per game, if you publicly guess Kevin McCallister, you cannot be executed today and choose a player to die tonight",
+    "reminders": ["No Ability", "Correct"],
+    "otherNight": 15,
+    "otherNightReminder": "If Kevin was correctly guessed, choose a player to die",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/harry-and-marv_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/harry-and-marv_G.png"
+    ]
+  },
+  {
+    "id": "lock-shock-and-barrel",
+    "name": "Lock, Shock and Barrel",
+    "team": "minion",
+    "ability": "Each night, choose a player, if they are Santa or a relative (Arthur, Mrs, Kris), they are mad about being a different townsfolk or they might be executed.",
+    "firstNight": 22,
+    "firstNightReminder": "Choose a player, mark the player as mad if they are Santa or a relative. Inform the player if they are mad.",
+    "otherNight": 8,
+    "otherNightReminder": "Choose a player, mark the player as mad if they are Santa or a relative. Inform the player if they are mad.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/lock-shock-and-barrel_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/lock-shock-and-barrel_G.png"
+    ]
+  },
+  {
+    "id": "gremlin",
+    "name": "Gremlin",
+    "team": "minion",
+    "ability": "Each day, if the word 'gremlin' was said publicly, or you were selected or nominated by a good player, mark the Gremlin with the Activated token. At night, if Activated, you choose a player to die the following night.",
+    "reminders": ["Activated", "Dies Tonight"],
+    "otherNight": 14,
+    "otherNightReminder": "If a player is marked with Dies Tonight, they die. If Activated wake the Gremlin and choose a player to die the following night.",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/gremlin_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/gremlin_G.png"
+    ]
+  },
+
+  {
+    "id": "the-grinch",
+    "name": "The Grinch",
+    "team": "demon",
+    "ability": "Each night, choose a player, they are drunk and you have their ability until dusk, then they die",
+    "reminders": ["Grinched"],
+    "firstNight": 24,
+    "firstNightReminder": "Choose a player, mark the player as Grinched",
+    "otherNight": 10,
+    "otherNightReminder": "Choose a player, mark the player as Grinched",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/the-grinch_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/the-grinch_G.png"
+    ]
+  },
+  {
+    "id": "the-krampus",
+    "name": "The Krampus",
+    "team": "demon",
+    "ability": "Each night*, if a good player died since you last acted, choose a player, they die",
+    "reminders": ["Active"],
+    "otherNight": 12,
+    "otherNightReminder": "If a good player died since you last acted, choose a player, mark the player as dead",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/the-krampus_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/the-krampus_G.png"
+    ]
+  },
+  {
+    "id": "mr-oogie-boogie",
+    "name": "Mr. Oogie Boogie",
+    "team": "demon",
+    "ability": "Each night*, choose a player, they die. On the 1st night, choose a minion. If you die, they become Mr Oogie Boogie.",
+    "reminders": ["Backup"],
+    "firstNight": 23,
+    "firstNightReminder": "Choose a minion, mark the minion as Mr Oogie Boogie's backup",
+    "otherNight": 11,
+    "otherNightReminder": "Choose a player, mark the player as dead",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/mr-oogie-boogie_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/mr-oogie-boogie_G.png"
+    ]
+  },
+  {
+    "id": "hans-gruber",
+    "name": "Hans Gruber",
+    "team": "demon",
+    "ability": "Each night*, choose whether to register as townsfolk or as a demon. You may choose a player to die on nights where you choose to register as a demon.",
+    "reminders": ["Townsfolk", "Demon"],
+    "otherNight": 13,
+    "otherNightReminder": "Choose whether to register as townsfolk or as a demon",
+    "image": [
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/hans-gruber_E.png",
+      "https://raw.githubusercontent.com/chizmw/botc-homebrew-slay-bells-revisited/refs/heads/main/images/hans-gruber_G.png"
+    ]
+  }
+]
