@@ -6,7 +6,7 @@ This is my adaptation of a "discovered script" called Slay Bells.
 
 ## All Players
 
-## Enabling Homebrew Images
+### Enabling Homebrew Images
 
 By default the app **does not load external images** from homebrew scripts.
 
